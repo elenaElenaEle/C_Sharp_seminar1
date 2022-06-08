@@ -3,6 +3,10 @@
 //умноженное на само себя).
 
 
-int n = 15;
+Console.WriteLine("Введите число: ");
+int n = int.Parse(Console.ReadLine());
+
+
+
 Console.WriteLine("Число: " + n);
-Console.WriteLine("Квадрат числа: " + n * n);
+Console.WriteLine("Квадрат числа: " + Math.Pow(n, 2));
